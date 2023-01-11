@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/webc.webc
 lang: 'en'
 ---
 <tool-tip role="tooltip" webc:type="11ty" 11ty:type="njk" webc:keep>
