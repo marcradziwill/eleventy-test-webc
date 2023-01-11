@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <script csp-hash>
+      performance.mark('HEAD End');
+      performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
+    </script>
+    <script>{{ page.url | webcGetCss | safe }}</script>
+    <script>{{ page.url | webcGetJs | safe }}</script>
+  </head>
+  <body>
+    <main class="container">
+      {{ content | safe }}
+    </main>
+  </body>
+</html>
