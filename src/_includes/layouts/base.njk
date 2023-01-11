@@ -1,16 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang }}">
   <head>
-    <script csp-hash>
-      performance.mark('HEAD End');
-      performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
-    </script>
+    <meta charset="utf-8">
+		<title>Njk Example</title>
     <style>{{ page.url | webcGetCss | safe }}</style>
     <script>{{ page.url | webcGetJs | safe }}</script>
   </head>
   <body>
-    <main class="container">
-      {{ content | safe }}
-    </main>
+    {{ content | safe }}
   </body>
 </html>
