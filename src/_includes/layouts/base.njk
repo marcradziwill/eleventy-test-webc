@@ -5,7 +5,7 @@
       performance.mark('HEAD End');
       performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');
     </script>
-    <script>{{ page.url | webcGetCss | safe }}</script>
+    <style>{{ page.url | webcGetCss | safe }}</style>
     <script>{{ page.url | webcGetJs | safe }}</script>
   </head>
   <body>
