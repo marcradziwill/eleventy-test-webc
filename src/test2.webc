@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.njk
+lang: 'en'
 ---
 <tool-tip role="tooltip" webc:type="11ty" 11ty:type="njk" webc:keep>
-    {{ 'externallink' | i18n({ link: 'Openstreetmap' }, lang)}}
+    Lang: {{lang}}
+    Translation: {{ 'externallink' | i18n({ link: 'Openstreetmap' }, lang)}} 
 </tool-tip>
