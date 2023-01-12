@@ -6,5 +6,8 @@
 		<style @raw="getCss(page.url)" webc:keep></style>
 		<script @raw="getJs(page.url)" webc:keep></script>
 	</head>
-	<body @raw="content"></body>
+	<body>
+		<div @raw="content"></div>
+		<footer></footer>
+	</body>
 </html>

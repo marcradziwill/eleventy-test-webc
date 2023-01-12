@@ -1,0 +1,9 @@
+<slot>Here is no title</slot>
+<style webc:keep>
+    tool-tip {
+        background-color: blue;
+    }
+</style>
+<script>
+    console.log('title')
+</script>
